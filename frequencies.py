@@ -3,7 +3,7 @@
 import collections
 
 def frequencies(items):
-    frequencies = {}
+
     # Your code goes here
 
-    return collections.Counter(items)
+    return collections.Counter(map(str, items)))

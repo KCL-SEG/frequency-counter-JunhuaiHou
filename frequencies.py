@@ -6,4 +6,4 @@ def frequencies(items):
 
     # Your code goes here
 
-    return collections.Counter(map(str, items)))
+    return collections.Counter(map(str, items))

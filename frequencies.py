@@ -4,7 +4,7 @@
 def frequencies(**items):
     frequencies = {}
     # Your code goes here
-    for (key, value) items.items():
+    for (key, value) in items.items():
         frequencies[key] = value
 
     return frequencies

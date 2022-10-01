@@ -1,10 +1,9 @@
 """Frequencies function."""
 """ENTER YOUR SOLUTION HERE!"""
+import collections
 
-def frequencies(**items):
+def frequencies(items):
     frequencies = {}
     # Your code goes here
-    for (key, value) in items.items():
-        frequencies[key] = value
 
-    return frequencies
+    return collections.Counter(items)
